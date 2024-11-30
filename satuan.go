@@ -19,4 +19,5 @@ func main() {
 	case nominal >= 100000 && nominal <= 999999:
 		fmt.Println("Ratusan Ribu")
 	}
+
 }
