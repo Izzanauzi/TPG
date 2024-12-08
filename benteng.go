@@ -8,11 +8,11 @@ func main() {
 	xx = 1
 	yy = 1
 	for a := false; !a; {
-		if xx != y {
-			fmt.Printf("(%d , %d)\n", x, xx)
+		if yy != y {
+			fmt.Printf("(%d , %d)\n", x, yy)
 		}
-		if yy != x {
-			fmt.Printf("(%d , %d)\n", yy, y)
+		if xx != x {
+			fmt.Printf("(%d , %d)\n", xx, y)
 		}
 		xx++
 		yy++

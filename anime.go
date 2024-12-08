@@ -22,5 +22,7 @@ func main() {
 		}
 		power = anime == 100
 	}
-	fmt.Printf("%d %.2f %d %d", n, avg, min, max)
+	if n > 0 {
+		fmt.Printf("%d %.2f %d %d", n, avg, min, max)
+	}
 }
